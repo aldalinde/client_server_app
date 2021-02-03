@@ -1,0 +1,39 @@
+{
+    "orders": [
+        {
+            "item": "paper white A4 100sh pack",
+            "quantity": 10,
+            "price": 5.89,
+            "buyer": "JSC WAPTEE",
+            "date": "05/19/2020"
+        },
+        {
+            "item": "panel 05/69",
+            "quantity": 18,
+            "price": 27.99,
+            "buyer": "JSC WAPTEE",
+            "date": "05/19/2020"
+        },
+        {
+            "item": "white paper A4 100sh pack",
+            "quantity": 6,
+            "price": 5.89,
+            "buyer": "GP Carter",
+            "date": "05/19/2020"
+        },
+        {
+            "item": "IndependenceDay card 30/71",
+            "quantity": 29,
+            "price": 1.09,
+            "buyer": "GP Carter",
+            "date": "05/19/2020"
+        },
+        {
+            "item": "polish transparent 1.2 gal 63/02",
+            "quantity": 1,
+            "price": 5.89,
+            "buyer": "LLC BingDay",
+            "date": "05/19/2020"
+        }
+    ]
+}
