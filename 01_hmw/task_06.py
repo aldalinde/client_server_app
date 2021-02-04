@@ -26,7 +26,9 @@ with open('test_file.txt', 'rb') as f:
 
 print(f'Data decoded from win codec and encoded by utf-8: {data.decode(charset["encoding"]).encode("utf-8")}' + '\n')
 
-
+a = data.decode(charset["encoding"]).encode("utf-8")
+b = a.decode("utf-8")
+print(b)
 # Принудительно открыть файл в формате Unicode и вывести его содержимое.
 
 print(f'Script: ' + '\n'
