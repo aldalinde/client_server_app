@@ -1,0 +1,8 @@
+test_list:
+- one
+- two
+- three
+test_int: 99
+test_d:
+  int10€: 10
+  int11€: 11
