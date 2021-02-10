@@ -1,0 +1,38 @@
+# passed wrong indexes:    if len(argv) == 5:\n  port = argv[2] \n  addr = argv[4]
+# should have been:        if len(argv) == 5:\n  port = argv[4] \n  addr = argv[2]
+
+
+C:\Users\Armik\01_hmw\Scripts\python.exe D:/AI/_Python/Client_server_apps/homework/03_04_hmw/unitest_server_client.py
+..FF......
+======================================================================
+FAIL: testGetFullParamsClient (__main__.TestGettingConfigs)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:/AI/_Python/Client_server_apps/homework/03_04_hmw/unitest_server_client.py", line 35, in testGetFullParamsClient
+    self.assertEqual(get_addr_port([self.script_name_client, '-a', self.default_addr_client, '-p', self.port],
+AssertionError: Tuples differ: (7777, '127.0.0.1') != ('127.0.0.1', 7777)
+
+First differing element 0:
+7777
+'127.0.0.1'
+
+- (7777, '127.0.0.1')
++ ('127.0.0.1', 7777)
+
+======================================================================
+FAIL: testGetFullParamsServer (__main__.TestGettingConfigs)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "D:/AI/_Python/Client_server_apps/homework/03_04_hmw/unitest_server_client.py", line 30, in testGetFullParamsServer
+    self.assertEqual(get_addr_port([self.script_name_server, '-a', self.default_addr_server, '-p', self.port],
+AssertionError: Tuples differ: (7777, '') != ('', 7777)
+
+First differing element 0:
+7777
+''
+
+- (7777, '')
++ ('', 7777)
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.009s
