@@ -5,7 +5,7 @@ from utils import *
 
 
 
-# testing getting from command line correct address and port for server and client and
+# testing getting from command line correct address and port for server_pack and client_pack and
 # their default values from config files
 
 #functions tested: get_addr_port, parse_configs
@@ -14,8 +14,8 @@ class TestGettingConfigs(unittest.TestCase):
     default_addr_server = ''
     default_addr_client = '127.0.0.1'
     port = 7777
-    script_name_server = 'server.py'
-    script_name_client = 'client.py'
+    script_name_server = 'server_pack.py'
+    script_name_client = 'client_pack.py'
     config_source_server = 'configs_server.yaml'
     config_source_client = 'configs_client.yaml'
     result_server = ('', 7777)
@@ -29,7 +29,7 @@ class TestGettingConfigs(unittest.TestCase):
         self.assertEqual(parse_configs(self.config_source_client), self.result_client)
 
 # parsing command line containing :
-    # all parameters "параметры командной строки скрипта client.py <addr> [<port>]: addr — ip-адрес сервера"
+    # all parameters "параметры командной строки скрипта client_pack.py <addr> [<port>]: addr — ip-адрес сервера"
     def testGetFullParamsServer(self):
         self.assertEqual(get_addr_port([self.script_name_server, '-a', self.default_addr_server, '-p', self.port],
                                        self.config_source_server),

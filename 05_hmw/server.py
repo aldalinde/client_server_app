@@ -2,8 +2,8 @@
 # имеет параметры командной строки: -p <port> — TCP-порт для работы (по умолчанию использует 7777);
 # -a <addr> — IP-адрес для прослушивания (по умолчанию слушает все доступные адреса).
 
-from .server_functions import *
-from ..utils import *
+from server_functions import *
+from utils import *
 from socket import *
 from sys import argv
 

@@ -1,7 +1,5 @@
-from ..utils import *
+from utils import *
 import logging
-
-# import client_log
 
 
 logger = logging.getLogger('app_cl')
@@ -13,7 +11,7 @@ presence_msg = {"action": "presence", "time": timestr, "type": "status",
 # parsing for message type and acting correspondingly
 
 def parsing_server_msg(s, server_message):
-    # sending presence message each time client receives probe action
+    # sending presence message each time client_pack receives probe action
     if 'action' in server_message.keys():
         if server_message['action'] == 'probe':
             server_response = {'action': 'probe', 'time': server_message['time'],
@@ -29,12 +27,13 @@ def parsing_server_msg(s, server_message):
             logger.warning('Server action unknown. See server_response.json')
             return server_response, server_message['action']
 
-    # collecting server responses
+    # collecting server_pack responses
     elif 'response' in server_message.keys():
         if server_message['alert']:
             server_response = {'response': server_message['response'], 'time': server_message['time'],
                                'contents': server_message['alert'], 'type': 'alert'}
             # logging INFO
+
         elif server_message['error']:
             server_response = {'response': server_message['response'], 'time': server_message['time'],
                                'contents': server_message['error'], 'type': 'error'}
@@ -45,7 +44,7 @@ def parsing_server_msg(s, server_message):
             # logging INFO
         return server_response, 'response'
 
-    # collecting and printing unknown messages from server
+    # collecting and printing unknown messages from server_pack
     else:
         server_response = {'response': 'unknown', 'time': timestr,
                            'contents': [server_message], 'type': 'unknown'}

@@ -5,6 +5,11 @@
 import yaml
 import json
 import time
+import logging
+import client_log
+
+
+logg = logging.getLogger('app_cl')
 
 
 # parsing config files to get address and port
@@ -31,15 +36,18 @@ def get_addr_port(argv, config_file):
             print('PORT type must be int with value from 1024 to 65535, default values taken')
             port = parse_configs(config_file)[1]
             # logging WARNING
+            logg.warning('PORT type must be int with value from 1024 to 65535, default values taken')
     else:
         port = parse_configs(config_file)[1]
         # logging INFO
+        logg.info('default PORT value implemented')
 
     if '-a' in argv:
         addr = argv[argv.index('-a')+1]
     else:
         addr = parse_configs(config_file)[0]
         # logging INFO
+        logg.info('default ADDR value implemented')
 
     return addr, port
 

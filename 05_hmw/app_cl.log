@@ -1,0 +1,9 @@
+2021-02-15 19:29:37,666 INFO utils default PORT value implemented
+2021-02-15 19:29:37,667 INFO utils default ADDR value implemented
+2021-02-15 19:29:37,670 INFO client_functions Server action probe. Presence msg request.
+2021-02-15 19:32:41,874 WARNING utils PORT type must be int with value from 1024 to 65535, default values taken
+2021-02-15 19:32:41,875 INFO utils default ADDR value implemented
+2021-02-15 19:32:41,878 INFO client_functions Server action probe. Presence msg request.
+2021-02-15 19:35:06,798 INFO utils default PORT value implemented
+2021-02-15 19:35:06,799 INFO utils default ADDR value implemented
+2021-02-15 19:35:06,802 INFO client_functions Server action probe. Presence msg request.

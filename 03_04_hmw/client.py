@@ -1,5 +1,5 @@
 # Функции клиента: сформировать presence-сообщение; отправить сообщение серверу; получить ответ сервера;
-# разобрать сообщение сервера; параметры командной строки скрипта client.py <addr> [<port>]: addr — ip-адрес сервера;
+# разобрать сообщение сервера; параметры командной строки скрипта client_pack.py <addr> [<port>]: addr — ip-адрес сервера;
 # port — tcp-порт на сервере, по умолчанию 7777.
 
 from client_functions import *
@@ -16,9 +16,9 @@ s.connect((addr, int(port)))
 server_responses = []
 
 while True:
-    # receiving messages from server
+    # receiving messages from server_pack
     msg_in = s.recv(10000)
-# actions if there is incoming message from server
+# actions if there is incoming message from server_pack
     if msg_in:
         server_message = get_msg(msg_in)
 
