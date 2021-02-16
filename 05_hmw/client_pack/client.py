@@ -3,7 +3,7 @@
 # port — tcp-порт на сервере, по умолчанию 7777.
 
 from client_functions import *
-from utils import *
+from client_utils import *
 from socket import *
 from sys import argv
 import json

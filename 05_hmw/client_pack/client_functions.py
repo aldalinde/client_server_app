@@ -1,11 +1,11 @@
-from utils import *
+from client_utils import *
 import logging
 
 
 logger = logging.getLogger('app_cl')
 
 presence_msg = {"action": "presence", "time": timestr, "type": "status",
-                "user": {"account_name": "Somebody", "status": "Hello there!"}}
+                "user": {"account_name": "Ho-Ho", "status": "Hello there!"}}
 
 
 # parsing for message type and acting correspondingly

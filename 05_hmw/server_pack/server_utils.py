@@ -2,14 +2,14 @@
 # Журналирование обработки исключений try/except.
 # Вместо функции print() использовать журналирование и обеспечить вывод служебных сообщений в лог-файл;
 # Журналирование функций, исполняемых на серверной и клиентской сторонах при работе мессенджера.
+from server_log import *
 import yaml
 import json
 import time
-import logging
-import client_log
 
 
-logg = logging.getLogger('app_cl')
+
+logg = logging.getLogger('app_serv')
 
 
 # parsing config files to get address and port
@@ -24,8 +24,8 @@ def get_addr_port(argv, config_file):
 
     if '-p' in argv:
         try:
-            if type(argv[argv.index('-p')+1]) == int:
-                if not 1024 >= argv[argv.index('-p')+1] >= 65535:
+            if int(argv[argv.index('-p')+1]):
+                if not 1024 <= int(argv[argv.index('-p')+1]) <= 65535:
                     raise ValueError
                 else:
                     port = argv[argv.index('-p')+1]
