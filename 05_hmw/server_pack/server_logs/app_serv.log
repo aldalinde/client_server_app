@@ -1,0 +1,4 @@
+2021-02-17 01:29:34,349 INFO       server_functions     correct presence message by client
+2021-02-17 01:30:08,441 ERROR      server_functions     bad JSON object from client, code 400
+2021-02-17 01:30:57,138 ERROR      server_functions     no account name given by client, code 400
+2021-02-17 01:31:55,389 INFO       server_functions     correct presence message by client

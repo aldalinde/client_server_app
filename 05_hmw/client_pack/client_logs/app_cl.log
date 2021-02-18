@@ -1,0 +1,91 @@
+2021-02-17 00:50:24,935 INFO client_utils default ADDR value implemented
+2021-02-17 00:50:24,937 INFO client_utils default PORT value implemented
+2021-02-17 00:50:24,938 INFO client_utils default ADDR value implemented
+2021-02-17 00:53:55,967 INFO client_utils default ADDR value implemented
+2021-02-17 00:53:55,969 INFO client_utils default PORT value implemented
+2021-02-17 00:53:55,970 INFO client_utils default ADDR value implemented
+2021-02-17 00:58:26,589 INFO client_utils default ADDR value implemented
+2021-02-17 00:58:26,591 INFO client_utils default PORT value implemented
+2021-02-17 00:58:26,592 INFO client_utils default ADDR value implemented
+2021-02-17 01:02:28,414 INFO client_utils default ADDR value implemented
+2021-02-17 01:02:28,415 INFO client_utils default PORT value implemented
+2021-02-17 01:02:28,416 INFO client_utils default ADDR value implemented
+2021-02-17 01:05:56,501 INFO client_utils default PORT value implemented
+2021-02-17 01:05:56,503 INFO client_utils default ADDR value implemented
+2021-02-17 01:05:56,503 INFO client_utils default PORT value implemented
+2021-02-17 01:05:56,504 INFO client_utils default ADDR value implemented
+2021-02-17 01:09:28,708 WARNING client_utils PORT type must be int with value from 1024 to 65535, default values taken
+2021-02-17 01:09:28,709 INFO client_utils default ADDR value implemented
+2021-02-17 01:09:28,713 INFO client_functions Server action probe. Presence msg request.
+2021-02-17 01:10:19,306 INFO client_utils default PORT value implemented
+2021-02-17 01:10:19,307 INFO client_utils default ADDR value implemented
+2021-02-17 01:10:19,309 INFO client_functions Server action probe. Presence msg request.
+2021-02-17 01:11:32,031 INFO client_utils default ADDR value implemented
+2021-02-17 01:11:32,034 INFO client_functions Server action probe. Presence msg request.
+2021-02-17 01:11:38,225 INFO client_utils default PORT value implemented
+2021-02-17 01:11:38,226 INFO client_utils default ADDR value implemented
+2021-02-17 01:11:38,229 INFO client_functions Server action probe. Presence msg request.
+2021-02-17 01:12:16,426 INFO client_utils default PORT value implemented
+2021-02-17 01:12:16,427 INFO client_utils default ADDR value implemented
+2021-02-17 01:12:16,430 INFO client_functions Server action probe. Presence msg request.
+2021-02-17 01:12:32,692 INFO client_utils default PORT value implemented
+2021-02-17 01:12:32,693 INFO client_utils default ADDR value implemented
+2021-02-17 01:12:32,696 INFO client_functions Server action probe. Presence msg request.
+2021-02-17 01:13:54,375 INFO client_utils default PORT value implemented
+2021-02-17 01:13:54,376 INFO client_utils default ADDR value implemented
+2021-02-17 01:13:54,378 INFO client_functions Server action probe. Presence msg request.
+2021-02-17 01:15:03,595 INFO client_utils default ADDR value implemented
+2021-02-17 01:15:03,598 INFO client_functions Server action probe. Presence msg request.
+2021-02-17 01:16:18,715 INFO client_utils default PORT value implemented
+2021-02-17 01:16:18,716 INFO client_utils default ADDR value implemented
+2021-02-17 01:16:18,719 INFO client_functions Server action probe. Presence msg request.
+2021-02-17 01:16:32,230 INFO client_utils default ADDR value implemented
+2021-02-17 01:16:32,233 INFO client_functions Server action probe. Presence msg request.
+2021-02-17 01:16:38,364 WARNING client_utils PORT type must be int with value from 1024 to 65535, default values taken
+2021-02-17 01:16:38,365 INFO client_utils default ADDR value implemented
+2021-02-17 01:16:38,368 INFO client_functions Server action probe. Presence msg request.
+2021-02-17 01:17:45,376 WARNING client_utils PORT type must be int with value from 1024 to 65535, default values taken
+2021-02-17 01:17:45,377 INFO client_utils default ADDR value implemented
+2021-02-17 01:17:45,380 INFO client_functions Server action probe. Presence msg request.
+2021-02-17 01:17:51,361 INFO client_utils default PORT value implemented
+2021-02-17 01:17:51,362 INFO client_utils default ADDR value implemented
+2021-02-17 01:17:51,365 INFO client_functions Server action probe. Presence msg request.
+2021-02-17 01:18:00,352 INFO client_utils default ADDR value implemented
+2021-02-17 01:18:00,355 INFO client_functions Server action probe. Presence msg request.
+2021-02-17 01:25:51,581 INFO client_utils default PORT value implemented
+2021-02-17 01:25:51,582 INFO client_utils default ADDR value implemented
+2021-02-17 01:25:51,585 INFO client_functions Server action probe. Presence msg request.
+2021-02-17 01:26:35,490 INFO client_utils default ADDR value implemented
+2021-02-17 01:26:35,493 INFO client_functions Server action probe. Presence msg request.
+2021-02-17 01:26:43,092 INFO client_utils default PORT value implemented
+2021-02-17 01:26:43,093 INFO client_utils default ADDR value implemented
+2021-02-17 01:26:43,096 INFO client_functions Server action probe. Presence msg request.
+2021-02-17 01:26:52,176 WARNING client_utils PORT type must be int with value from 1024 to 65535, default values taken
+2021-02-17 01:26:52,177 INFO client_utils default ADDR value implemented
+2021-02-17 01:26:52,180 INFO client_functions Server action probe. Presence msg request.
+2021-02-17 01:28:09,797 INFO client_utils default PORT value implemented
+2021-02-17 01:28:09,797 INFO client_utils default ADDR value implemented
+2021-02-17 01:28:09,800 INFO client_functions Server action probe. Presence msg request.
+2021-02-17 01:28:15,347 INFO client_utils default PORT value implemented
+2021-02-17 01:28:15,348 INFO client_utils default ADDR value implemented
+2021-02-17 01:28:15,351 INFO client_functions Server action probe. Presence msg request.
+2021-02-17 01:28:50,921 INFO client_utils default ADDR value implemented
+2021-02-17 01:28:50,924 INFO client_functions Server action probe. Presence msg request.
+2021-02-17 01:28:55,653 INFO client_utils default PORT value implemented
+2021-02-17 01:28:55,654 INFO client_utils default ADDR value implemented
+2021-02-17 01:28:55,657 INFO client_functions Server action probe. Presence msg request.
+2021-02-17 01:28:59,499 WARNING client_utils PORT type must be int with value from 1024 to 65535, default values taken
+2021-02-17 01:28:59,500 INFO client_utils default ADDR value implemented
+2021-02-17 01:28:59,502 INFO client_functions Server action probe. Presence msg request.
+2021-02-17 01:29:34,345 INFO client_utils default PORT value implemented
+2021-02-17 01:29:34,346 INFO client_utils default ADDR value implemented
+2021-02-17 01:29:34,348 INFO client_functions Server action probe. Presence msg request.
+2021-02-17 01:30:08,437 INFO client_utils default PORT value implemented
+2021-02-17 01:30:08,438 INFO client_utils default ADDR value implemented
+2021-02-17 01:30:08,441 INFO client_functions Server action probe. Presence msg request.
+2021-02-17 01:30:57,134 INFO client_utils default PORT value implemented
+2021-02-17 01:30:57,135 INFO client_utils default ADDR value implemented
+2021-02-17 01:30:57,138 INFO client_functions Server action probe. Presence msg request.
+2021-02-17 01:31:55,384 INFO client_utils default PORT value implemented
+2021-02-17 01:31:55,385 INFO client_utils default ADDR value implemented
+2021-02-17 01:31:55,388 INFO client_functions Server action probe. Presence msg request.
