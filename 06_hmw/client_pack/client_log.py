@@ -7,7 +7,7 @@ import logging
 
 logger = logging.getLogger('app_cl')
 #  %(created)f
-log_msg_format = '%(asctime)s %(levelname)s %(module)s %(message)s'
+log_msg_format = '%(asctime)s %(levelname)-5s %(module)s %(message)s'
 
 
 # , timestr D:/AI/_Python/Client_server_apps/homework/05_hmw/client_pack/
