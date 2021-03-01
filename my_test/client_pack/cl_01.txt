@@ -1,0 +1,12 @@
+Messages from chat with client_02
+"HELLO, THERE!"
+"WHO'S THERE?"
+"I'M 1"
+"I'M 2? HOW ARE YOU?"
+"NOT BAD, THANKS!"
+"THE TIMEOUT IS SHORT"
+"TOO BAD)))"
+" ARE YOU DIOING?"
+"WHAT??"
+"""WHAT ARE YOU DOING?"
+"IT IS. SHOULD FIX IT SOMEHOW ))"
