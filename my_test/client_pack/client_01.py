@@ -5,7 +5,6 @@ from sys import exit, argv
 from socket import socket, AF_INET, SOCK_STREAM
 from client_utils import *
 from threading import Thread
-import time
 
 
 ADDRESS = get_addr_port(argv, 'configs_client.yaml')
@@ -34,7 +33,7 @@ def echo_client():
             data = sock.recv(1024).decode('utf-8')
             if data:
                 with open('cl_01.txt', 'a') as fa:
-                    fa.writelines(data + '\n')
+                    fa.writelines(data + timestr + '\n')
                 print(data)
 
 

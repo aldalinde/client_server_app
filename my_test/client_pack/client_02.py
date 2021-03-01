@@ -11,6 +11,7 @@ ADDRESS = get_addr_port(argv, 'configs_client.yaml')
 with open('cl_02.txt', 'w') as f:
     f.write('Messages from chat with client_01' + '\n')
 
+
 def echo_client():
     # function to get input message from client
     def get_message(s):
