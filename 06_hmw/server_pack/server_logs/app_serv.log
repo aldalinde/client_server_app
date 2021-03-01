@@ -1,0 +1,9 @@
+2021-02-22 17:53:30,677 INFO       utils                default PORT value implemented
+2021-02-22 17:53:30,677 INFO       utils                default ADDR value implemented
+2021-02-22 17:53:30,677 INFO       decorator            Функция get_addr_port вызвана из функции/модуля utils
+2021-02-22 17:53:36,464 INFO       decorator            Функция get_addr_port вызвана из функции/модуля utils
+2021-02-22 17:53:36,467 INFO       decorator            Функция get_msg вызвана из функции/модуля utils
+2021-02-22 17:53:36,467 INFO       decorator            Функция get_msg вызвана из функции/модуля utils
+2021-02-22 17:53:36,468 INFO       server               correct presence message by client
+2021-02-22 17:53:36,468 INFO       decorator            Функция handling_client_msg вызвана из функции/модуля __main__
+2021-02-22 17:53:36,470 INFO       decorator            Функция get_msg вызвана из функции/модуля utils

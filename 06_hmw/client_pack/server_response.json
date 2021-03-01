@@ -1,0 +1,16 @@
+{
+    "server_messages": [
+        {
+            "action": "probe",
+            "time": "Mon Feb 22 17:53:30 2021\n",
+            "contents": "request for presence message",
+            "type": "action"
+        },
+        {
+            "response": 200,
+            "time": "Mon Feb 22 17:53:30 2021\n",
+            "contents": "Welcome to our server_pack",
+            "type": "alert"
+        }
+    ]
+}
