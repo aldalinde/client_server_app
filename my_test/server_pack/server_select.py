@@ -5,7 +5,6 @@ from server_utils import *
 import select
 from socket import socket, AF_INET, SOCK_STREAM
 from sys import argv
-import json
 
 
 def read_requests(r_clients, all_clients):
@@ -41,8 +40,6 @@ def mainloop():
     s.bind(address)
     s.listen(5)
     s.settimeout(1)
-    with open('msgs.json', 'w') as f_n:
-        json.dump({'messages': []}, f_n, indent=4)
 
     while True:
         try:
