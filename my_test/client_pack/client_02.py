@@ -15,7 +15,8 @@ with open('cl_02.txt', 'w') as f:
 def echo_client():
     # function to get input message from client
     def get_message(s):
-        msg_new = input('Write your message or "exit" - to exit messenger:  ')
+        print('Write your message or "exit" - to exit messenger: ')
+        msg_new = input()
         if msg_new == 'exit':
             exit(1)
         send_msg(s, msg_new)

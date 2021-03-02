@@ -41,7 +41,7 @@ def get_addr_port(argv, config_file):
         addr = parse_configs(config_file)[0]
 
 
-    return addr, port
+    return addr, int(port)
 
 
 def get_msg(msg_in):
