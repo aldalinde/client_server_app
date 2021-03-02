@@ -1,4 +1,3 @@
-2021-02-17 01:29:34,349 INFO       server_functions     correct presence message by client
-2021-02-17 01:30:08,441 ERROR      server_functions     bad JSON object from client, code 400
-2021-02-17 01:30:57,138 ERROR      server_functions     no account name given by client, code 400
-2021-02-17 01:31:55,389 INFO       server_functions     correct presence message by client
+2021-02-24 18:36:05,371 INFO       server_utils         default ADDR value implemented
+2021-02-24 19:05:57,898 INFO       server_utils         default PORT value implemented
+2021-02-24 19:05:57,898 INFO       server_utils         default ADDR value implemented
