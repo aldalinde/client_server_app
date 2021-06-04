@@ -23,7 +23,7 @@ def write_responses(requests, w_clients, all_clients):
     for sock in w_clients:
         if sock in requests:
             resp = requests[sock].encode('utf-8')
-
+            print(resp)
             for cl in w_clients:
                 try:
                     cl.send(resp.upper())

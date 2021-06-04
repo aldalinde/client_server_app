@@ -1,7 +1,8 @@
 # 1. На клиентской стороне реализовать прием и отправку сообщений с помощью потоков в P2P-формате
 # (обмен сообщениями между двумя пользователями).
 
-from sys import exit, argv
+from sys import argv, exit
+import os
 from socket import socket, AF_INET, SOCK_STREAM
 from client_utils import *
 from threading import Thread
@@ -18,8 +19,9 @@ def echo_client():
         print('Write your message or "exit" - to exit messenger: ')
         msg_new = input()
         if msg_new == 'exit':
-            exit(1)
-        send_msg(s, msg_new)
+            exit(0)
+        else:
+            send_msg(s, msg_new)
 
     with socket(AF_INET, SOCK_STREAM) as sock:
         sock.connect(ADDRESS)
